@@ -1,0 +1,28 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Python environments and tooling
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter and notebook exports
+*.nbconvert.ipynb
+
+# Generated outputs
+figures/
+
+# Nextflow runtime artifacts
+.nextflow/
+.nextflow.log*
+work/
+timeline.html
+report.html
+trace.txt
+dag.html
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
