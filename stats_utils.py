@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 from scipy import stats
 from statsmodels.stats.multitest import multipletests
@@ -127,6 +126,5 @@ def ttest_2_samp(
         corrected_stat_dict = results_dict
 
     return pd.DataFrame(corrected_stat_dict).T
-
 
 
