@@ -10,7 +10,7 @@ def wilcox_2_samp(
     group_1_name='pCR',
     group_2_name='pNR',
     alt_hyp='two-sided',
-    multi_method='fdr_bh'
+    multi_method=None
 ):
 
     # options for the alternative hypothesis are two-sided, less, and greater
@@ -88,7 +88,7 @@ def ttest_2_samp(
     group_1_name='pCR',
     group_2_name='pNR',
     alt_hyp='two-sided',
-    multi_method='fdr_bh'
+    multi_method=None
 ):
     # Supported alternative hypotheses: 'two-sided', 'less', 'greater'
     
